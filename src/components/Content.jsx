@@ -20,7 +20,7 @@ import Home from '../pages/Home'
 const Content = () => {
   return (
     <Routes>
-      <Route path="/" element={<Home to="/home" replace />} />
+      <Route path="/Shpora" element={<Home to="/home" replace />} />
       <Route path="/home" element={<Home />} />
       <Route path="/reactInfo" element={<ReactInfo />} />
       <Route path="/beginning" element={<Beginning />} />
