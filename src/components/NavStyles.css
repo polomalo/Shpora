@@ -1,0 +1,23 @@
+.nav-link {
+  color: #fff;
+  width: 100%;
+  padding: 7px;
+  border-radius: 10px;
+}
+
+.nav-link:active {
+  color: #272b3b;
+  background: #a8dce7;
+  outline: 1px solid #101422;
+}
+
+.nav-link:hover {
+  background: #101422;
+}
+
+.active,
+.active:hover {
+  color: #272b3b;
+  background: #a8dce7;
+  outline: 1px solid #101422;
+}
